@@ -2,7 +2,7 @@
 
 ## User
 
-|         |        |                   |
+| 이름      | Method | End-Point         |
 | ------- | ------ | ----------------- |
 | 로그인     | POST   | /login            |
 | 로그아웃    | GET    | /logout           |
