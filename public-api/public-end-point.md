@@ -25,8 +25,6 @@
 
 ## Answer
 
-\<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
-
 |        |        |                                      |
 | ------ | ------ | ------------------------------------ |
 | 답변글 작성 | POST   | /qna/answer                          |
@@ -35,8 +33,6 @@
 | 답변글 채택 | PUT    | /qna/answer/best-answer/:\[board-id} |
 
 ## Like
-
-\<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
 
 |               |        |                                  |
 | ------------- | ------ | -------------------------------- |
