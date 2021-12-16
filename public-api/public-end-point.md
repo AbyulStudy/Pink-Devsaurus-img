@@ -2,7 +2,7 @@
 
 ## User
 
-| 이름      | Method | End-Point         |
+|         |        |                   |
 | ------- | ------ | ----------------- |
 | 로그인     | POST   | /login            |
 | 로그아웃    | GET    | /logout           |
@@ -14,7 +14,7 @@
 
 ## Board
 
-| 이름         | Method | End-Point                   |
+|            |        |                             |
 | ---------- | ------ | --------------------------- |
 | 카테고리 목록 조회 | GET    | /categories                 |
 | 게시판 조회     | GET    | /qna/:{board\_id}           |
@@ -25,7 +25,7 @@
 
 ## Answer
 
-| 이름     | Method | End-Point                            |
+|        |        |                                      |
 | ------ | ------ | ------------------------------------ |
 | 답변글 작성 | POST   | /qna/answer                          |
 | 답변글 수정 | PUT    | /qna/answer/:\[board-id}             |
@@ -34,7 +34,7 @@
 
 ## Like
 
-| 이름            | Method | End-Point                        |
+|               |        |                                  |
 | ------------- | ------ | -------------------------------- |
 | 좋아요 UP \[게시글] | PUT    | /qna/questions/likes/:{board-id} |
 | 좋아요 취소 \[게시글] | DELETE | /qna/questions/likes/:{board-id} |
