@@ -55,29 +55,29 @@ Cookie:pinkToken=jwtAccessToken
 | 이름         | Method | End-Point                   |
 | ---------- | ------ | --------------------------- |
 | 카테고리 목록 조회 | GET    | /categories                 |
-| 게시판 조회     | GET    | /qna/:{board\_id}           |
-| 게시판 목록 조회  | GET    | /qna/list                   |
-| 게시물 작성     | POST   | /qna/questions              |
-| 게시물 수정     | PUT    | /qna/questions/:\[board-id} |
-| 게시물 삭제     | DELETE | /qna/questions/:\[board-id} |
+| 게시판 조회     | GET    | /questions/:{board\_id}           |
+| 게시판 목록 조회  | GET    | /questions/                    |
+| 게시물 작성     | POST   | /questions              |
+| 게시물 수정     | PUT    | /questions/:\[board-id} |
+| 게시물 삭제     | DELETE | /questions/:\[board-id} |
 
 ### Answer
 
 | 이름     | Method | End-Point                            |
 | ------ | :----: | ------------------------------------ |
-| 답변글 작성 |  POST  | /qna/answer                          |
-| 답변글 수정 |   PUT  | /qna/answer/:\[board-id}             |
-| 답변글 삭제 | DELETE | /qna/answer/:\[board-id}             |
-| 답변글 채택 |   PUT  | /qna/answer/best-answer/:\[board-id} |
+| 답변글 작성 |  POST  | /answer                          |
+| 답변글 수정 |   PUT  | /answer/:\[board-id}             |
+| 답변글 삭제 | DELETE | /answer/:\[board-id}             |
+| 답변글 채택 |   PUT  | /answer/best-answer/:\[board-id} |
 
 ### Like
 
 | 이름            | Method | End-Point                        |
 | ------------- | :----: | -------------------------------- |
-| 좋아요 UP \[게시글] |   PUT  | /qna/questions/likes/:{board-id} |
-| 좋아요 취소 \[게시글] | DELETE | /qna/questions/likes/:{board-id} |
-| 좋아요 UP \[답변글] |   PUT  | /qna/answers/likes/:{answer-id}  |
-| 좋아요 취소 \[답변글] | DELETE | /qna/answers/likes/:{answer-id}  |
+| 좋아요 UP \[게시글] |   PUT  | /likes/questions/:{board-id} |
+| 좋아요 취소 \[게시글] | DELETE | /likes/questions/:{board-id} |
+| 좋아요 UP \[답변글] |   PUT  | /likes/answers/:{answer-id}  |
+| 좋아요 취소 \[답변글] | DELETE | /likes/answers/:{answer-id}  |
 
 
 
